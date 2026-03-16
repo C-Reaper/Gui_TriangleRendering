@@ -78,7 +78,7 @@ void Delete(AlxWindow* w){
 }
 
 int main(){
-    if(Create("3D Meshing",600,400,4,4,Setup,Update,Delete))
+    if(Create("3D Meshing",1900,1000,1,1,Setup,Update,Delete))
         Start();
     return 0;
 }
